@@ -1,4 +1,4 @@
-FROM node:6.9.4-slim
+FROM node:7.10-slim
 MAINTAINER j.ciolek@webnicer.com
 WORKDIR /tmp
 COPY webdriver-versions.js ./
